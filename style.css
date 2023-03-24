@@ -1,0 +1,48 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 300px;
+  margin: auto;
+  background-color: rgb(81, 153, 215);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: rgb(215, 232, 233);
+}
+
+input textarea button {
+  display: block;
+  padding: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  resize: none;
+}
+
+input {
+  width: 100%;
+  display: block;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(53, 133, 167);
+  border-radius: 10px;
+  border-color: rgb(53, 133, 167);
+  padding: 8px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.success-message {
+  background-color: rgb(39, 55, 69);
+  padding: 10px;
+  color: white;
+  display: none;
+}
